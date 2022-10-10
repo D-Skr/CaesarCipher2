@@ -21,7 +21,7 @@ public class ConsoleView {
 				System.out.println("3. Decrypt from console");
 				System.out.println("4. Decrypt file");
 				System.out.println("5. Brute force file");
-				System.out.println("If you know full path please choose option:");
+				System.out.println("If you know absolute path please choose option:");
 				System.out.println("6. Encrypt file");
 				System.out.println("7. Decrypt file");
 				System.out.println("8. Brute force file");
@@ -54,7 +54,7 @@ public class ConsoleView {
 					OptionBruteForce.run(Alphabets.chooseLanguage(language));
 					break;
 
-				case ("6"):
+				case ("9"):
 					System.out.println("See you!");
 					console.close();
 					return;
