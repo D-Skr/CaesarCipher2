@@ -18,7 +18,6 @@ public class OptionDecryptFileAbsolutePath {
 		Scanner console = new Scanner(System.in);
 		System.out.println("Please enter the absolute path and name of your text file:");
 		String pathNotEncryptedFile = console.nextLine();
-		System.out.println(pathNotEncryptedFile);
 		String pathEncryptedFile = pathNotEncryptedFile.substring(0, pathNotEncryptedFile.length() - 4) + "_decrypted_"
 				+ currentTime + ".txt";
 		System.out.println("Please enter shift key:");
