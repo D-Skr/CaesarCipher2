@@ -54,6 +54,11 @@ public class ConsoleView {
 					OptionBruteForce.run(Alphabets.chooseLanguage(language));
 					break;
 
+				case ("6"):
+					System.out.println("File encryption option selected");
+					OptionEncryptFileAbsolutePath.run(Alphabets.chooseLanguage(language));
+					break;
+
 				case ("9"):
 					System.out.println("See you!");
 					console.close();
