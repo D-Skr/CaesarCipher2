@@ -33,6 +33,6 @@ public class OptionEncryptFile {
 				}
 				writer.close();
 			}
-			System.out.println("Please select option 1 - 6");
+			System.out.println("Please select option 1 - 9");
 		}
 	}
