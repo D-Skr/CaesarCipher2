@@ -13,7 +13,6 @@ import utils.EncryptConsole;
 
 public class OptionEncryptFile {
 
-
 		static void run(List<Character> alphabet) throws IOException {
 			long currentTime = System.currentTimeMillis();
 			Scanner console = new Scanner(System.in);
