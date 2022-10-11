@@ -16,6 +16,6 @@ public class OptionEncryptConsole {
 		int shift = Integer.parseInt(console.nextLine());
 		System.out.println("Your result is:");
 		System.out.println(EncryptConsole.encryptTextConsole(text, shift, alphabet));
-		System.out.println("Please select option 1 - 6");
+		System.out.println("Please select option 1 - 9");
 	}
 }
